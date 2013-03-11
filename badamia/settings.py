@@ -3,6 +3,9 @@ import os
 #gettext = lambda s: s
 PROJECT_PATH = os.path.abspath(os.path.dirname(__file__))
 
+# Set locale (hostgator is unable to load this by default)
+os.environ['LANG'] = 'en_US.UTF-8'
+
 # Django settings for badamia project.
 
 DEBUG = True
@@ -153,18 +156,18 @@ INSTALLED_APPS = (
     'cms',
     'mptt',
     'menus',
-    'south',
+    #'south',
     'sekizai',
     # CMS plugins
     'cms.plugins.file',
     'cms.plugins.flash',
     'cms.plugins.googlemap',
     'cms.plugins.link',
-    'cms.plugins.picture',
+    #'cms.plugins.picture',
     'cms.plugins.snippet',
-    'cms.plugins.teaser',
+    #'cms.plugins.teaser',
     'cms.plugins.text',
-    'cms.plugins.video',
+    #'cms.plugins.video',
     'cms.plugins.twitter',
 )
 
