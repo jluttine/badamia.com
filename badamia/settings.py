@@ -169,6 +169,7 @@ INSTALLED_APPS = (
     'cms.plugins.text',
     #'cms.plugins.video',
     'cms.plugins.twitter',
+    'badamia',
 )
 
 # A sample logging configuration. The only tangible logging
