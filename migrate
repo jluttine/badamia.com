@@ -1,0 +1,5 @@
+#!/bin/sh
+
+#./manage.py schemamigration --all --auto
+#./manage.py migrate --all
+./manage.py migrate
