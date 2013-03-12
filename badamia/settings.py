@@ -156,7 +156,7 @@ INSTALLED_APPS = (
     'cms',
     'mptt',
     'menus',
-    #'south',
+    'south',
     'sekizai',
     # CMS plugins
     'cms.plugins.file',
